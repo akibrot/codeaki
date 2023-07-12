@@ -12,7 +12,6 @@ function Courses() {
   dispatch(colorOn());
 
 
-  useEffect(() => { }, []);
 
   return <div className="course h-screen w-screen overflow-y-scroll ">
     <Head>
@@ -33,7 +32,7 @@ function Courses() {
 
       {
         [1, 1, 1, 1, 1, 1, 1, 11, 1, 1, 1, 1, 1, 1].map((e) => {
-          return <div key={Date.now()} className="card w-[20rem] rounded-md h-[10rem] m-2 bg-gray-700/10"></div>
+          return <div key={e} className="card w-[20rem] rounded-md h-[10rem] m-2 bg-gray-700/10"></div>
 
         })
       }

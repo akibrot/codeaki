@@ -15,7 +15,7 @@ function HomepageMain() {
     dispatch(colorOff())
 
     // console.log(userState)
-  },)
+  }, [])
   return <> <div className="hidden sm:block w-screen h-screen snap-y snap-mandatory   overflow-y-scroll overflow-x-hidden  scroll-smooth  ">
     <Head>
       <title>code-aki design | develop | teach </title>

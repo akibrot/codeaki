@@ -14,7 +14,7 @@ export default function Portofolio() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(colorOn());
-  });
+  }, []);
   return (
     <div className="bg-white scroll-smooth " id="portofolioTop">
       <TimelineIntro />

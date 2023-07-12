@@ -8,7 +8,7 @@ function HomePage() {
                 <p className="text-white/70 sm:text-7xl text-4xl text-center sm:text-center font-light sm:font-bold">let us develop your dream software or website with lAtest technologies !</p>
                 {/* <p>let us be your software mentors </p> */}
             </div>
-            <div className="sm:pt-20 pt-[5rem]  flex items-center justify-center  ">
+            <div className="sm:pt-16 pt-[5rem]  flex items-center justify-center  ">
                 <a href="#contactus">
                     <div className="shadow-sm font-light text-white   cursor-pointer duration-300 hover:bg-blue-600  h-14 sm:h-16 sm:w-[22rem] w-[18rem] z-50 bg-blue-500 flex items-center justify-center rounded-md">contact us</div>
                 </a>
