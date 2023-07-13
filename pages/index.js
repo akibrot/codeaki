@@ -20,10 +20,10 @@ function HomepageMain() {
     <Head>
       <title>code-aki design | develop | teach </title>
     </Head>
-    <HomePage />
-    <Tech />
-    <Services />
-    <Contactus />
+    {/* <HomePage /> */}
+    {/* <Tech /> */}
+    {/* <Services /> */}
+    {/* <Contactus /> */}
   </div>
     <Mobile />
   </>
