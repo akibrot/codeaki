@@ -45,6 +45,7 @@ function Tech() {
             title: 'tailwind css , java ,c++ ',
             imgurl: mysql
         },]
+    // this is tech comp
     return (
         <div id="tech" className="relative snap-start w-screen h-screen  bg-[#16191d]  flex items-center flex-wrap gap-2 justify-center">
 
