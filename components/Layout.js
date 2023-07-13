@@ -3,7 +3,7 @@ import NavBar from "./NavBar";
 function Layout({ children }) {
   return (
     <div>
-      <NavBar />
+      {/* <NavBar  /> */}
       {children}
       {/* <div id="#about">Footer</div> */}
     </div>
