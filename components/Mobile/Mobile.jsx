@@ -29,79 +29,6 @@ function Mobile() {
         });
     }, []);
 
-    const techImage = [
-        {
-            id: 1,
-            title: "Reactjs",
-            image: reactjs
-        }, {
-            id: 2,
-            title: "Nextjs",
-            image: next
-        }, {
-            id: 3,
-            title: "Electron",
-            image: electron
-        }, {
-            id: 4,
-            title: "Flutter",
-            image: flutter
-        }, {
-            id: 5,
-            title: "nodejs",
-            image: node
-        }, {
-            id: 6,
-            title: "express",
-            image: express
-        },
-        {
-            id: 7,
-            title: "Mongodb",
-            image: mongo
-        }, {
-            id: 8,
-            title: "...etc",
-            image: mysql
-        },
-    ]
-
-    const Timelines = [
-        {
-            id: 3,
-            direction: "left",
-            image: mobile,
-            description:
-                "Mobile app developed for gedeo zone curlture and tourism affairs , you can download the app from app stores. ",
-            date: "2023",
-        }, {
-            id: 4,
-            direction: "right",
-            image: mobile11,
-            description:
-                "Full-Stack desktop software developed for Gedeo zone transport department , developed in NEXTRON Technologies.",
-            date: "2023",
-        },
-        {
-            id: 1,
-            direction: "left",
-            image: eth,
-            description:
-                "This project called ethiopian heritages in everywhere developed in  MERN STACK with deep links algorithm.",
-            date: "2022",
-        },
-        {
-            id: 2,
-            direction: "right",
-            image: api,
-            description:
-                "This is nodejs with express and mongoDb api designed for the above system  and it is up and running on the server.",
-            date: "2022",
-        },
-
-
-
-    ];
     const [openMenu, setOpenMenu] = useState(false)
 
     return (
@@ -158,7 +85,7 @@ function Mobile() {
                 <div className='py-10 mt-5 bg-gray-800/50 px-12 flex flex-wrap items-center w-full justify-center gap-3'>
                     {
                         techImage.map((e) => {
-                            return <div key={e.image} data-aos="fade-up" className='h-20 w-32 bg-white flex items-center justify-center'>
+                            return <div key={e.title} data-aos="fade-up" className='h-20 w-32 bg-white flex items-center justify-center'>
                                 <Image key={e.id} src={e.image} width={70} height={70} alt='image' />
                             </div>
                         })
@@ -178,7 +105,7 @@ function Mobile() {
             </div>
             {
                 Timelines.map((e) => {
-                    return <div data-aos="fade-up" key={e.id} className='mx-8 py-6'>
+                    return <div data-aos="fade-up" key={e.description} className='mx-8 py-6'>
                         <div>
                             <Image src={e.image} alt='image' />
                         </div>
@@ -259,3 +186,78 @@ function Mobile() {
 }
 
 export default Mobile
+
+
+export const techImage = [
+    {
+        id: 1,
+        title: "Reactjs",
+        image: reactjs
+    }, {
+        id: 2,
+        title: "Nextjs",
+        image: next
+    }, {
+        id: 3,
+        title: "Electron",
+        image: electron
+    }, {
+        id: 4,
+        title: "Flutter",
+        image: flutter
+    }, {
+        id: 5,
+        title: "nodejs",
+        image: node
+    }, {
+        id: 6,
+        title: "express",
+        image: express
+    },
+    {
+        id: 7,
+        title: "Mongodb",
+        image: mongo
+    }, {
+        id: 8,
+        title: "...etc",
+        image: mysql
+    },
+]
+
+export const Timelines = [
+    {
+        id: 3,
+        direction: "left",
+        image: mobile,
+        description:
+            "Mobile app developed for gedeo zone curlture and tourism affairs , you can download the app from app stores. ",
+        date: "2023",
+    }, {
+        id: 4,
+        direction: "right",
+        image: mobile11,
+        description:
+            "Full-Stack desktop software developed for Gedeo zone transport department , developed in NEXTRON Technologies.",
+        date: "2023",
+    },
+    {
+        id: 1,
+        direction: "left",
+        image: eth,
+        description:
+            "This project called ethiopian heritages in everywhere developed in  MERN STACK with deep links algorithm.",
+        date: "2022",
+    },
+    {
+        id: 2,
+        direction: "right",
+        image: api,
+        description:
+            "This is nodejs with express and mongoDb api designed for the above system  and it is up and running on the server.",
+        date: "2022",
+    },
+
+
+
+];
