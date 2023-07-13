@@ -1,4 +1,5 @@
 import { CCarousel, CCarouselCaption, CCarouselItem } from '@coreui/react'
+import Image from 'next/image'
 function Services() {
     return (
         <div className="w-screen h-screen snap-start  workscont" id="services">
@@ -10,7 +11,7 @@ function Services() {
 
                 <CCarouselItem className='CCarouselItem '>
                     <div className="cont sm:w-[60%] w-[90%]">
-                        <img src="https://reactjs.org/logo-og.png" alt="" />
+                        <Image src="https://reactjs.org/logo-og.png" loader={() => "https://reactjs.org/logo-og.png"} alt="" layout='fill' />
                         <CCarouselCaption className="d-none d-md-block">
 
                             <h5 className='text-4xl  font-light
@@ -26,7 +27,7 @@ function Services() {
                 </CCarouselItem>
                 <CCarouselItem className='CCarouselItem'>
                     <div className="cont sm:w-[60%] w-[90%]">
-                        <img src="https://reactjs.org/logo-og.png" alt="" />
+                        <Image src="https://reactjs.org/logo-og.png" loader={() => "https://reactjs.org/logo-og.png"} alt="" layout='fill' />
                         <CCarouselCaption className="d-none d-md-block">
 
                             <h5 className='text-4xl font-light
@@ -42,7 +43,7 @@ function Services() {
                 </CCarouselItem>
                 <CCarouselItem className='CCarouselItem'>
                     <div className="cont sm:w-[60%] w-[90%]">
-                        <img src="https://reactjs.org/logo-og.png" alt="" />
+                        <Image src="https://reactjs.org/logo-og.png" loader={() => "https://reactjs.org/logo-og.png"} alt="" layout='fill' />
                         <CCarouselCaption className="d-none d-md-block">
 
                             <h5 className='text-4xl font-light
@@ -58,7 +59,7 @@ function Services() {
                 </CCarouselItem>
                 <CCarouselItem className='CCarouselItem'>
                     <div className="cont sm:w-[60%] w-[90%]">
-                        <img src="https://reactjs.org/logo-og.png" alt="" />
+                        <Image src="https://reactjs.org/logo-og.png" loader={() => "https://reactjs.org/logo-og.png"} alt="" layout='fill' />
                         <CCarouselCaption className="d-none d-md-block">
 
                             <h5 className='text-4xl font-light
@@ -74,7 +75,7 @@ function Services() {
                 </CCarouselItem>
                 <CCarouselItem className='CCarouselItem'>
                     <div className="cont sm:w-[60%] w-[90%]">
-                        <img src="https://reactjs.org/logo-og.png" alt="" />
+                        <Image src="https://reactjs.org/logo-og.png" loader={() => "https://reactjs.org/logo-og.png"} alt="" layout='fill' />
                         <CCarouselCaption className="d-none d-md-block">
 
                             <h5 className='text-4xl font-light

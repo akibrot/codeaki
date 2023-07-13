@@ -53,7 +53,7 @@ function Tech() {
                 {
                     data.map((e) =>
                         <div key={e.imgurl} title={e.title} className=" sm:w-52 sm:h-[9rem] w-[6.5rem]  rounded hover:scale-105 duration-300  bg-white/10 flex items-center justify-center">
-                            <Image src={e.imgurl} width={120} height={120} />
+                            <Image src={e.imgurl} width={120} height={120} alt="image" />
                         </div>
 
                     )

@@ -180,7 +180,7 @@ function Mobile() {
                 Timelines.map((e) => {
                     return <div data-aos="fade-up" key={e.id} className='mx-8 py-6'>
                         <div>
-                            <Image src={e.image} />
+                            <Image src={e.image} alt='image' />
                         </div>
                         <div className='font-light text-gray-200'>{e.description}</div>
                     </div>
@@ -198,7 +198,7 @@ function Mobile() {
                     <p >we develope for everyy platforms.</p>
                 </div>
                 <div data-aos="fade-up" className='flex    items-center justify-center relative my-10 '>
-                    <Image src={reactjs} width={200} height={300} className='' />
+                    <Image src={reactjs} width={200} height={300} className='' alt='image' />
                     {/* <div className='absolute text-red-200 text-2xl font-extrabold  mt-[-8px]'>Development</div> */}
                     <div data-aos="fade-left" className='absolute left-5 text-gray-200   mt-[-8px]'>Website   </div> <div data-aos="fade-right" className='absolute right-4  text-gray-200   mt-[-8px]'>Teaching </div>
                     <div data-aos="fade-down" className='absolute top-7 left-24  text-gray-200   mt-[-8px]'>
