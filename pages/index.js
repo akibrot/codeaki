@@ -25,7 +25,7 @@ function HomepageMain() {
     {/* <Services /> */}
     {/* <Contactus /> */}
   </div>
-    <Mobile />
+    {/* <Mobile /> */}
   </>
 }
 
