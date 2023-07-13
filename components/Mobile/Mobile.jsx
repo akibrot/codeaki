@@ -23,6 +23,7 @@ import "aos/dist/aos.css";
 import { useEffect, useState } from 'react'
 import { set } from 'mongoose'
 function Mobile() {
+    // mobile fixed
     useEffect(() => {
         AOS.init({
             duration: 1500,
